@@ -4,10 +4,10 @@ plugins {
 }
 
 android {
-    namespace = "com.appsflyer.onelink.appsflyeronelinkbasicapp"
+    namespace = "com.grab.onelink.appsflyertest"
     compileSdk = 34
     defaultConfig {
-        applicationId = "com.appsflyer.onelink.appsflyeronelinkbasicapp"
+        applicationId = "com.grab.onelink.appsflyertest"
         minSdk = 27
         targetSdk = 33
         versionCode = 1

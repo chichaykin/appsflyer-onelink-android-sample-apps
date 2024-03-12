@@ -1,4 +1,4 @@
-package com.appsflyer.onelink.appsflyeronelinkbasicapp
+package com.grab.onelink.appsflyertest
 
 import android.app.Application
 import android.content.Intent
@@ -33,7 +33,7 @@ class AppsflyerBasicApp: Application(){
         appsFlyer.setDebugLog(true)
         appsFlyer.setMinTimeBetweenSessions(0)
         //Setting OneLink template ID
-        appsFlyer.setAppInviteOneLink("H5hv")
+        appsFlyer.setAppInviteOneLink("2695613898")
 
         //Deep Linking Handling
         appsFlyer.subscribeForDeepLink(object : DeepLinkListener {
@@ -176,7 +176,8 @@ class AppsflyerBasicApp: Application(){
 
                 //Error Message
                 override fun onError(errorCode: Int, errorDesc: String) {
-                    Log.d(LOG_TAG, "Launch failed to be sent:\n" +
+                    Log.d(
+                        LOG_TAG, "Launch failed to be sent:\n" +
                             "Error code: " + errorCode + "\n"
                             + "Error description: " + errorDesc)
                 }

@@ -1,4 +1,4 @@
-package com.appsflyer.onelink.appsflyeronelinkbasicapp
+package com.grab.onelink.appsflyertest
 
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod

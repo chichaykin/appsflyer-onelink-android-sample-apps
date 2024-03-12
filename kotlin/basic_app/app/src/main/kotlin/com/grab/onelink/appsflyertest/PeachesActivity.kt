@@ -1,4 +1,4 @@
-package com.appsflyer.onelink.appsflyeronelinkbasicapp
+package com.grab.onelink.appsflyertest
 
 
 class PeachesActivity : FruitActivity() {

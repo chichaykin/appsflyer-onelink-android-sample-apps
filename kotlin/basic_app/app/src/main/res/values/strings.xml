@@ -8,4 +8,5 @@
     <string name="peaches_str">Peaches</string>
     <string name="peaches_price">$0.18 each 46.0/lb</string>
     <string name="app_moto">Find the magic of deep link parameters</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://grab.onelink.me/.well-known/assetlinks.json\" }]</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.appsflyer.onelink.appsflyeronelinkbasicapp
+package com.grab.onelink.appsflyertest
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -14,8 +14,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.appsflyer.deeplink.DeepLink
-import com.appsflyer.onelink.appsflyeronelinkbasicapp.AppsflyerBasicApp.Companion.DL_ATTRS
-import com.appsflyer.onelink.appsflyeronelinkbasicapp.AppsflyerBasicApp.Companion.LOG_TAG
+import com.grab.onelink.appsflyertest.AppsflyerBasicApp.Companion.DL_ATTRS
+import com.grab.onelink.appsflyertest.AppsflyerBasicApp.Companion.LOG_TAG
 import com.appsflyer.share.LinkGenerator
 import com.appsflyer.share.ShareInviteHelper
 import com.google.gson.Gson
