@@ -22,13 +22,13 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-//    override fun onNewIntent(intent: Intent?) {
-//        super.onNewIntent(intent)
-//        intent?.let {
-//            handleDeeplink(intent)
-//        }
-//        setIntent(intent)
-//    }
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        intent?.let {
+            handleDeeplink(intent)
+        }
+    }
 
     private fun handleDeeplink(intent: Intent) {
         println("Deeplink Intent: $intent.data")

@@ -60,6 +60,9 @@ class AppsflyerBasicApp: Application(){
                     }
                 }
                 val deepLinkObj: DeepLink = deepLinkResult.deepLink
+                println("DeepLinkValue: ${deepLinkObj.deepLinkValue}")
+                println("DeepLinkStringValue: ${deepLinkResult.deepLink.getStringValue("af_dp")}")
+
                 try {
                     Log.d(
                         LOG_TAG, "The DeepLink data is: $deepLinkObj"
